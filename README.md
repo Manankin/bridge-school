@@ -1,2 +1,2 @@
 # bridge-school
-SPA for novice bridge players
+SPA for beginner bridge players

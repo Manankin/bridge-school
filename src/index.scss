@@ -1,3 +1,5 @@
+@import './styles/variables';
+
 :root {
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
     font-size: 24px;
@@ -6,7 +8,6 @@
 
     color-scheme: light dark;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #242424;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -21,15 +22,11 @@
 }
 
 body {
-    // margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 100vw;
     min-height: 100vh;
-    // background-color: #787D12;
-    // background-color: #C5A713;
-    // background-color: #6B4405;
-    background-color: #E7DB88;
+    background-color: $color-cream;
 }

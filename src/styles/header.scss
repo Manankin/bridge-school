@@ -1,11 +1,13 @@
+@import './variables';
+
 .header {
     display: flex;
     justify-content: center;
     align-items: center;
 
-    padding: 0.5rem 1rem;
+    padding: 0.3rem 1rem;
     width: 100%;
-    border-bottom: 1px solid #e7db88;
+    border-bottom: 1px solid $color-cream;
 
     & > .nav {
         display: flex;
@@ -20,6 +22,10 @@
             &:hover {
                 text-decoration: underline;
             }
+        }
+
+        .active {
+            color: $color-amber;
         }
     }
 }

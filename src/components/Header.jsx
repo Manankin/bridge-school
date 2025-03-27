@@ -5,9 +5,9 @@ export default function Header() {
     return (
         <header className='header'>
             <nav className='nav'>
-                <Link to="/" >Home</Link>
-                <Link to="about" >Вступ</Link>
-                <Link to="contact" >Контакти</Link>
+                <NavLink to="/" >Home</NavLink>
+                <NavLink to="about" >Вступ</NavLink>
+                <NavLink to="contact" >Контакти</NavLink>
             </nav>
         </header>
     )
